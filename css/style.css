@@ -146,7 +146,7 @@ margin-left: 50px;
   display: flex;
 
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -409,6 +409,10 @@ margin-left: 50px;
 .icon-linkedin-grey {
   padding: 12px;
   fill: var(--main-icon-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-instagram-grey:hover,
