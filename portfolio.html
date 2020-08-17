@@ -405,9 +405,25 @@
             </li>
           </ul>
         </div>
-        <div class="subscription"><b>подпишитесь на рассылку</b></div>
-        <!-- <input type="text" size="50" />
-            <input type="text" E-mail value="Подписаться" /> -->
+        <form class="subscribe-form">
+          <div class="subscription">
+            <b>подпишитесь на рассылку</b>
+          </div>
+          <div class="subscription-position">
+            <input
+              class="subscription-fild"
+              type="text"
+              name="usermail"
+              placeholder="E-mail"
+            />
+            <button class="btn-subscription" type="submit">
+              Подписаться
+              <svg class="icon-send" width="24">
+                <use href="./images/sprite-svg.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
